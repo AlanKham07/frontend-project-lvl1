@@ -15,3 +15,6 @@ brain-even:
 
 brain-calc:
 	node games/brain-calc.js
+
+brain-gcd:
+	node games/brain-gcd.js
