@@ -3,7 +3,7 @@ import readlineSync from 'readline-sync';
 
 const gcdGame = () => {
   console.log('Welcome to the Brain Games!');
-  const userName = readlineSync.question('May I have tour name? ');
+  const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   const win = `Congratulations, ${userName}!`;
   console.log('Find the greatest common divisor of given numbers.');

@@ -3,7 +3,7 @@ import readlineSync from 'readline-sync';
 
 const gameCalc = () => {
   console.log('Welcome to the Brain Games!');
-  const userName = readlineSync.question('May I have tour name? ');
+  const userName = readlineSync.question('May I have your name? ');
   const win = `Congratulations, ${userName}!`;
   console.log(`Hello, ${userName}!`);
   console.log('What is the result of the expression?');

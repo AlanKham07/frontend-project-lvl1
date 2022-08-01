@@ -3,7 +3,7 @@ import readlineSync from 'readline-sync';
 
 const gameEven = () => {
   console.log('Welcome to the Brain Games!');
-  const userName = readlineSync.question('May I have tour name? ');
+  const userName = readlineSync.question('May I have your name? ');
   const gameOver = `'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`;
   const win = `Congratulations, ${userName}!`;
   console.log(`Hello, ${userName}!`);
